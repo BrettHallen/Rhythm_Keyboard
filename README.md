@@ -1,7 +1,7 @@
 # Ритм Клавиатура<br>Rhythm Keyboard
 Mystery post-Soviet (1992) КР80ВМ80А (Intel 8080) based machine.<br>
 
-It has 2KB of RAM (КР573РУ10, 6166) and 6KB of ROM (three КС573РФ2, 2716).<br>
+It has 2KB of RAM (КР537РУ10, 6166) and 6KB of ROM (three КС573РФ2, 2716).<br>
 
 There doesn't appear to be any factory or design marking that I've found so far.  The case is metal and is possibly custom made.  There is an expansion interface (СНП58-64) but there is no access from outside the case.<br>
 
@@ -13,6 +13,8 @@ The main chips are:<br>
 - КР580ГФ24 (Intel 8224 clock generator/driver)
 - КР580ВИ53 (Intel 8253 PIT)
 - 2 x КР580ВВ55А (Intel 8255 PPI)
+- КР537РУ10 (6116 2KB SRAM)
+- 3 x КС573РФ2 (2716 2KB EPROM)
 
 The keyboard uses QWERTY layout for the Latin characters instead of the more usual JCUKEN layout I would associate with Soviet 8080-based machines.<br>
 
