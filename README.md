@@ -21,9 +21,14 @@ The machine has 8KB of ROM split across four КС573РФ2 (2716) EPROMs.<br>
 
 The ROMs are labelled "Ритм КЛАВ" which my English brain wants to translate to "Rhythm Keyboard".<br>
 They are piggybacked in two pairs and are numbered N1 to N4.<br>
-They also have a 16-bit checksum (контрольная сумма) using the [CRC-16/IBM-SDLC](https://emn178.github.io/online-tools/crc/) (CRC-16/ISO-IEC-14443-3-B, CRC-16/X-25, CRC-B, X-25) algorithm.<br>
+They also have a 16-bit checksum (контрольная сумма) using the [CRC-16/IBM-SDLC](https://emn178.github.io/online-tools/crc/) (CRC-16/ISO-IEC-14443-3-B, CRC-16/X-25, CRC-B) algorithm.<br>
 
-I dump the ROM images and upload here shortly.
+| ROM | Label | CRC-B | Status |
+|-----|-------|-------|--------|
+| N1  | 1620  | 1620  | OK     |
+| N2  | B47D  | ACBB  | NOK    |
+| N3  | 9719  |       |        |
+| N4  |       |       |        |
 
 ## [Images](/Images)
 Various images of the keyboard & motherboard.<br>
