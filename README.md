@@ -26,8 +26,8 @@ They also have a 16-bit checksum (контрольная сумма) using the [
 | ROM | Label | CRC-B | Status |
 |-----|-------|-------|--------|
 | N1  | 1620  | 1620  | OK     |
-| N2  | B47D  | ACBB  | NOK    |
-| N3  | 9719  |       |        |
+| N2  | B47D  | ACBB  | NOK?   |
+| N3  | 9719  | 9B1A  | NOK?   |
 
 ## [Images](/Images)
 Various images of the keyboard & motherboard.<br>
