@@ -17,7 +17,7 @@ The keyboard uses QWERTY layout for the Latin characters instead of the more usu
 It also has a three digit display which is a first for me as well.<br>
 
 ## [ROMs](/ROMs)
-The machine has 8KB of ROM split across four КС573РФ2 (@716) EPROMs.<br>
+The machine has 8KB of ROM split across four КС573РФ2 (2716) EPROMs.<br>
 
 The ROMs are labelled "Ритм КЛАВ" which my English brain wants to translate to "Rhythm Keyboard".<br>
 They are piggybacked in two pairs and are numbered N1 to N4.<br>
