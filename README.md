@@ -31,6 +31,8 @@ They also have a 16-bit checksum (контрольная сумма) using the [
 | N2  | B47D  | ACBB  | NOK?   |
 | N3  | 9719  | 9B1A  | NOK?   |
 
+I will endeavour to try re-dumping N2 & N3 using a different programmer and update.<br>
+
 ## [Images](/Images)
 Various images of the keyboard & motherboard.<br>
 
