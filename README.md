@@ -13,7 +13,7 @@ The main chips are:<br>
 - КР580ГФ24 (Intel 8224 clock generator/driver)
 - КР580ВИ53 (Intel 8253 PIT)
 - 2 x КР580ВВ55А (Intel 8255 PPI)
-- КР537РУ10 (6116 2KB SRAM)
+- КР537РУ10 (HM6516-9 2KB SRAM)
 - 3 x КС573РФ2 (2716 2KB EPROM)
 
 The keyboard uses QWERTY layout for the Latin characters instead of the more usual JCUKEN layout I would associate with Soviet 8080-based machines.<br>
