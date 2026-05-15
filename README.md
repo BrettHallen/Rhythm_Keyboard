@@ -1,9 +1,9 @@
 # Ритм Клавиатура<br>Rhythm Keyboard
 Mystery post-Soviet (1992) КР80ВМ80А (Intel 8080) based machine.<br>
 
-It has 2KB of RAM (КР537РУ10, 6166) and 6KB of ROM (three КС573РФ2, 2716).<br>
+It has 2KB of RAM (КР537РУ10, like HM6516-9) and 6KB of ROM (three КС573РФ2, like 2716).<br>
 
-There doesn't appear to be any factory or design marking that I've found so far.  The case is metal and is possibly custom made.  There is an expansion interface (СНП58-64) but there is no access from outside the case.<br>
+There doesn't appear to be any factory or design marking that I've found so far.  The case is metal and is possibly custom made.  There is an expansion interface (СНП58-64, like DIN 41612) but there is no access from outside the case.<br>
 
 It has a 5-pin DIN socket for what we assume is a cassette (магнитофон) and a very long 9-wire cable that has been cut, perhaps from some larger device that it controlled and was not possible to move.<br>
 
