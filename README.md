@@ -38,7 +38,7 @@ I will endeavour to try re-dumping N2 & N3 using a different programmer and upda
 ## Bill of Materials
 | IC   | Soviet     | Western     | Purpose                                           |
 |------|------------|-------------|---------------------------------------------------|
-| IC01 | АОТ101АС   | CNY74-2     | Two channel optocoupler                           |
+| IC01 | АОТ101АС   | ILD74       | Two channel optocoupler                           |
 | IC02 | КР140УД708 | LM471       | Op. amp.                                          |
 | IC03 | К554СА3    | LM311       | Comparator                                        |
 | IC04 | К555ТЛ2    | 74LS14      | Hex Schmitt trigger                               |
