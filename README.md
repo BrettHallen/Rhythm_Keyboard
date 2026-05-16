@@ -39,7 +39,7 @@ I will endeavour to try re-dumping N2 & N3 using a different programmer and upda
 | IC   | Soviet     | Western     | Purpose                                           |
 |------|------------|-------------|---------------------------------------------------|
 | IC01 | АОТ101АС   | ILD74       | Two channel optocoupler                           |
-| IC02 | КР140УД708 | LM471       | Op. amp.                                          |
+| IC02 | КР140УД708 | LM741       | Op. amp.                                          |
 | IC03 | К554СА3    | LM311       | Comparator                                        |
 | IC04 | К555ТЛ2    | 74LS14      | Hex Schmitt trigger                               |
 | IC05 | КР580ГФ24  | Intel 8224  | Clock generator for 8080                          |
