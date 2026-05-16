@@ -1,1 +1,5 @@
 .DS_Store
+/ROM_RAM_Daughterboard/ROM_RAM_Daughterboard-backups
+ROM_RAM_Daughterboard/fp-info-cache
+/Schematic_Scraps/Schematic_Scraps-backups
+*.kicad_prl
