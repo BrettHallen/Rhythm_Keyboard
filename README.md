@@ -35,6 +35,30 @@ They also have a 16-bit checksum (контрольная сумма) using the [
 
 I will endeavour to try re-dumping N2 & N3 using a different programmer and update.<br>
 
+## Bill of Materials
+| IC   | Soviet     | Western     | Purpose                                           |
+|------|------------|-------------|---------------------------------------------------|
+| IC01 | АОТ101АС   | CNY74-2     | Two channel optocoupler                           |
+| IC02 | КР140УД708 | LM471       | Op. amp.                                          |
+| IC03 | К554СА3    | LM311       | Comparator                                        |
+| IC04 | К555ТЛ2    | 74LS14      | Hex Schmitt trigger                               |
+| IC05 | КР580ГФ24  | Intel 8224  | Clock generator for 8080                          |
+| IC06 | КР580ВМ80А | Intel 8080A | 8-bit CPU                                         |
+| IC07 | К555ИД7    | 74LS138     | 3-to-8 decoder                                    |
+| IC08 | КР1533ЛА3  | 74ALS00     | Quad 2-input NAND                                 |
+| IC09 | КР537РУ10  | HM6516      | 2KB SRAM                                          |
+| IC10 | КС573РФ2   | 2716        | 2KB EPROM                                         |
+| IC11 | КС573РФ2   | 2716        | 2KB EPROM                                         |
+| IC12 | КС573РФ2   | 2716        | 2KB EPROM                                         |
+| IC13 | КР580ВВ51А | Intel 8251  | Universal Sync/Async Receiver/Transmitter (USART) |
+| IC14 | КР580ВИ53  | Intel 8253  | Programmable Interval Timer (PIT)                 |
+| IC15 | КР580ВВ55А | Intel 8255  | Programmable Peripheral Interface (PPI)           |
+| IC16 | КР580ВВ55А | Intel 8255  | Programmable Peripheral Interface (PPI)           |
+| IC17 | K155ЛН2    | 7405        | Hex inverter                                      |
+| IC18 | K155ЛН2    | 7405        | Hex inverter                                      |
+| IC19 | K155ЛН2    | 7405        | Hex inverter                                      |
+| IC20 | K155ЛН2    | 7405        | Hex inverter                                      |
+
 ## [Images](/Images)
 Various images of the keyboard & motherboard.<br>
 
