@@ -33,7 +33,19 @@ They also have a 16-bit checksum (контрольная сумма) using the [
 | N2  | B47D  | ACBB  | NOK?   |
 | N3  | 9719  | 9B1A  | NOK?   |
 
-I will endeavour to try re-dumping N2 & N3 using a different programmer and update.<br>
+## Memory Map
+The A11/A12/A13 address decoding by the К555ИД7/74LS138 gives us this possible memory map:
+
+| Address Range | Device             | Possible purpose                                                     |
+|---------------|--------------------|----------------------------------------------------------------------|
+| 0x0000–0x07FF | ROM N1             | Main program (keyboard handling, modes, display control, core logic) |
+| 0x0800–0x0FFF | RAM                | System variables, flags, buffers, stack, temporary data              |
+| 0x1000–0x17FF | КР580ВВ51А/8251    | Serial interface                                                     |
+| 0x1800–0x1FFF | КР580ВВ55А/8255 #1 | Keyboard matrix                                                      |
+| 0x2000–0x27FF | КР580ВИ53/8253     | Sound generation                                                     |
+| 0x2800–0x2FFF | КР580ВВ55А/8255 #2 | 3-digit 7-segment display + control signals                          |
+| 0x3000–0x37FF | ROM N2             | Sound data, waveforms, rhythm tables, or additional code             |
+| 0x3800–0x3FFF | ROM N3             | Extra code, lookup tables, or sequencer support                      |
 
 ## Bill of Materials
 | IC   | Soviet     | Western     | Purpose                                           |
