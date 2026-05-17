@@ -2382,6 +2382,28 @@
 			)
 		)
 	)
+	(global_label "~{WR}"
+		(shape input)
+		(at 113.03 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69157dfa-6181-4a6b-8b72-37a9d7c38c86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.7366 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D7"
 		(shape input)
 		(at 113.03 48.26 0)

@@ -420,6 +420,14 @@
     [
       "eb9f2803-535d-464e-acbb-17ce89e3c02a",
       "Memory"
+    ],
+    [
+      "01be24ea-75bd-4ae1-be64-012d87455ffa",
+      "Display"
+    ],
+    [
+      "7ffa7d6d-9f85-44f8-91b4-aef984b29e30",
+      "Audio"
     ]
   ],
   "text_variables": {}
