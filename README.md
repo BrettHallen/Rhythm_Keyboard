@@ -34,7 +34,9 @@ They also have a 16-bit checksum (контрольная сумма) using the [
 | N3  | 9719  | 9B1A  | NOK?   |
 
 ## Memory Map
-The A11/A12/A13 address decoding by the К555ИД7/74LS138 gives us this possible memory map:
+The A11/A12/A13 address decoding by the К555ИД7/74LS138 gives us this possible memory map.<br>
+
+![Address decoding](/Images/Rhythm_Keyboard_Address_Decoding.jpg)
 
 | Address Range | Device             | Possible purpose                                                     |
 |---------------|--------------------|----------------------------------------------------------------------|
