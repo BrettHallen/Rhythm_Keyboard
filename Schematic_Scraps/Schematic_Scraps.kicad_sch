@@ -1479,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 115.57) (xy 99.06 115.57)
+			(xy 52.07 115.57) (xy 99.06 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 105.41) (xy 71.12 105.41)
+			(xy 52.07 105.41) (xy 74.93 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1499,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 113.03) (xy 99.06 113.03)
+			(xy 52.07 113.03) (xy 99.06 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1509,7 +1509,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 105.41) (xy 71.12 102.87)
+			(xy 74.93 105.41) (xy 74.93 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 102.87) (xy 55.88 102.87)
+			(xy 52.07 102.87) (xy 59.69 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3056,7 +3056,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 27.94 118.11 180)
+		(at 31.75 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3066,7 +3066,7 @@
 		)
 		(uuid "0f3b409f-e6cc-4a42-bde5-7ed9fc2cd285")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.0843 118.11 0)
+			(at 24.8943 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3408,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 27.94 100.33 180)
+		(at 31.75 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3418,7 +3418,7 @@
 		)
 		(uuid "96bd9157-bc35-4835-b128-e251d6a1e454")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.2097 100.33 0)
+			(at 23.0197 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3452,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 48.26 100.33 0)
+		(at 52.07 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3462,7 +3462,7 @@
 		)
 		(uuid "99cc9ed8-0436-4385-be8e-28849a15ca82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.1157 100.33 0)
+			(at 58.9257 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3474,7 @@
 	)
 	(global_label "~{RESIN}"
 		(shape input)
-		(at 27.94 102.87 180)
+		(at 31.75 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3484,7 +3484,7 @@
 		)
 		(uuid "a0020b0f-ddb0-4af4-884a-993001bb8628")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.391 102.87 0)
+			(at 23.201 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +3540,7 @@
 	)
 	(global_label "SYNC"
 		(shape input)
-		(at 27.94 110.49 180)
+		(at 31.75 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3550,7 +3550,7 @@
 		)
 		(uuid "a8341cdb-8cea-4343-8181-16207af44091")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.0562 110.49 0)
+			(at 23.8662 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +3584,7 @@
 	)
 	(global_label "+12V"
 		(shape input)
-		(at 48.26 118.11 0)
+		(at 52.07 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3594,7 +3594,7 @@
 		)
 		(uuid "afa4ef06-c634-487b-a803-f9b7f288105b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.3252 118.11 0)
+			(at 60.1352 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,6 +3780,28 @@
 			)
 		)
 	)
+	(global_label "SERIAL_CLOCK"
+		(shape input)
+		(at 31.75 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5b16b44-d1fe-486d-8d6d-afd7363c509e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.2786 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SYNC"
 		(shape input)
 		(at 124.46 184.15 0)
@@ -3826,7 +3848,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 102.87 90)
+		(at 63.5 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3835,7 +3857,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fd3c961-a797-4db6-a679-e0019113c4f6")
 		(property "Reference" "C1"
-			(at 59.69 95.25 90)
+			(at 63.5 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +3865,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 59.69 97.79 90)
+			(at 63.5 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 101.9048 0)
+			(at 67.31 101.9048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 102.87 0)
+			(at 63.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +3891,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 59.69 102.87 0)
+			(at 63.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3916,7 @@
 	)
 	(symbol
 		(lib_id "Clueless_Engineer:8224")
-		(at 38.1 95.25 0)
+		(at 41.91 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3903,7 +3925,7 @@
 		(fields_autoplaced yes)
 		(uuid "630dfbbb-afad-46f3-ae0e-849722ebdb1e")
 		(property "Reference" "U5"
-			(at 38.1 92.71 0)
+			(at 41.91 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3933,7 @@
 			)
 		)
 		(property "Value" "8224"
-			(at 38.1 95.25 0)
+			(at 41.91 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +3941,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 35.56 128.27 0)
+			(at 39.37 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +3950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 95.25 0)
+			(at 41.91 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3937,7 +3959,7 @@
 			)
 		)
 		(property "Description" "Intel 8224 clock generator for 8080"
-			(at 35.56 125.73 0)
+			(at 39.37 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4210,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 67.31 102.87 0)
+		(at 71.12 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4197,7 +4219,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8349e21-9654-41d4-a55d-7a78ba361157")
 		(property "Reference" "Y1"
-			(at 67.31 95.25 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +4227,7 @@
 			)
 		)
 		(property "Value" "Crystal"
-			(at 67.31 97.79 0)
+			(at 71.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 102.87 0)
+			(at 71.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 102.87 0)
+			(at 71.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +4253,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 67.31 102.87 0)
+			(at 71.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
