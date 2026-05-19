@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "211c4121-7782-4686-a6ab-da1695322144")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "Rhythm Keyboard (Ритм Клав)")
 		(date "17/MAY/2026")

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "0b455995-7041-4a45-a6f3-a5876a114bb5")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "Rhythm Keyboard (Ритм Клав)")
 		(date "17/MAY/2026")
@@ -3157,12 +3157,40 @@
 		(uuid "a834c510-0635-4db0-9956-4f41ccd9cf29")
 	)
 	(no_connect
+		(at 107.95 104.14)
+		(uuid "378944f5-667b-44b7-bf6f-7963cd5eda02")
+	)
+	(no_connect
+		(at 107.95 83.82)
+		(uuid "3916b11c-9723-4ffc-bf02-40449fa92c34")
+	)
+	(no_connect
+		(at 107.95 81.28)
+		(uuid "4297fc3d-2518-4fcb-ab2f-029cccd7561c")
+	)
+	(no_connect
+		(at 107.95 101.6)
+		(uuid "6dc44f4f-86fe-4927-aeb3-e7e31bea278c")
+	)
+	(no_connect
+		(at 107.95 86.36)
+		(uuid "97bf8392-f986-4dac-90a1-114f31c6e543")
+	)
+	(no_connect
+		(at 82.55 104.14)
+		(uuid "b09304ce-8674-4b04-85fb-1060071256a4")
+	)
+	(no_connect
 		(at 111.76 160.02)
 		(uuid "c7fcd84f-cc2a-4122-a264-636e0b896066")
 	)
 	(no_connect
 		(at 96.52 160.02)
 		(uuid "f0bbd9e6-b839-4530-a0c7-4cfb39689c45")
+	)
+	(no_connect
+		(at 107.95 96.52)
+		(uuid "f2d96923-54d0-4c9b-a681-fa11f1c3d523")
 	)
 	(wire
 		(pts
@@ -3628,6 +3656,28 @@
 			)
 		)
 	)
+	(global_label "A0"
+		(shape input)
+		(at 82.55 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e552efe-4f2b-4de6-a0b1-db234435ea18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.2667 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D3"
 		(shape input)
 		(at 82.55 73.66 180)
@@ -3914,6 +3964,28 @@
 			)
 		)
 	)
+	(global_label "~{TxC}"
+		(shape input)
+		(at 107.95 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88dce770-8f9b-4be1-8096-342bb8e31782")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.2009 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+12V"
 		(shape input)
 		(at 278.13 22.86 180)
@@ -4042,6 +4114,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 107.95 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5817df7-ad51-443f-989b-457078b25cb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.8057 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
